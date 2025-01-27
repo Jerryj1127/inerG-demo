@@ -1,0 +1,13 @@
+__pychache__
+__pychache__/*
+*__pychache__*
+src/__pycache__/*
+src/utils/__pycache__/*
+
+
+# IDE
+.vscode
+
+
+*.txt%  
+well_data.db
