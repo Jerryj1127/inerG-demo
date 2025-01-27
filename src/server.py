@@ -9,7 +9,7 @@ check_and_load_db()
 
 app = Flask(__name__)
 
-@app.route("/data")
+@app.route("/data", methods=['GET'])
 def get_well_data():
 
     well_api_number = request.args.get("well") 
